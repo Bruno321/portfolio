@@ -55,11 +55,11 @@
                     />
                     <div class="row q-mt-md">
                         <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="text-h6">Nombre:</div>
+                            <div class="text-h6">Name:</div>
                             <div>Bruno Ivan Paz Martinez</div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="text-h6">Residencia:</div>
+                            <div class="text-h6">Location:</div>
                             <div>México-Querétaro</div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 q-mt-md">

@@ -20,7 +20,6 @@
             </q-card>
         </div>
       </div>
-        
       
     </div>
 </template>

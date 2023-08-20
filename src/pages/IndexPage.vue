@@ -40,9 +40,5 @@ export default defineComponent({
 .border-radius{
   border-radius: 10px;
 }
-.gray-circle{
-  background-color: #E4E4E4;
-  width: fit-content;
-  border-radius: 15px;
-}
+
 </style>
