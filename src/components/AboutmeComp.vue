@@ -5,7 +5,7 @@
         <div class="row q-px-xl q-mt-lg">
             <div class="col-xs-12 col-sm-12 col-md-6 col-center q-mt-lg">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div style="width: 250px;height: 250px;background-color: gray;border-radius: 120px;"></div>
+                    <q-img style="width: 250px;height: 250px;border-radius: 120px;" src="link.jpg"/>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 q-mt-lg">
                     <div class="flex flex-center q-gutter-x-sm">
@@ -33,13 +33,13 @@
                         />
                         <div class="text-h5 flex flex-center">Full stack developer</div>
                     </div>
-                    <p class="h6 q-mt-md">
-                        {{ 
-                        `During my time on Centro de Desarrollo i got the opportunity of leading some of the projects , where i faced the difficulties of managing people. At the end i learned how to manage people according to his profile (skills and preferences) to get the best of them
-                         During my time on Centro de Desarrollo i got the opportunity of leading some of the projects , where i faced the difficulties of managing people. At the end i learned how to manage people according to his profile (skills and preferences) to get the best of them
-                         During my time on Centro de Desarrollo i got the opportunity of leading some of the projects , where i faced the difficulties of managing people. At the end i learned how to manage people according to his profile (skills and preferences) to get the best of them
-                        `    
-                        }}
+                    <div class="text-h6 q-mt-md text-weight-regular">
+                       Full stack developer with 3 years of experiencie working on 
+                       <a style="color: #9A8174;text-decoration:none" target="_blank" href="https://www.linkedin.com/company/cdfifuaq/" class="my-custom-link text-h6 text-weight-regular" >Centro de Desarrollo</a>
+                       ,there I had the opprtunity to lead some projects, I have worked with clients ,  raised requirments and develop real projects.
+                    </div>
+                    <p class="text-h6 text-weight-regular">
+                        I think the best way to know a developer is by reading his code and try his projects so fell free of doing that, my github is below (not all my projects are a public repo)
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
@@ -55,8 +55,8 @@
                     />
                     <div class="row q-mt-md">
                         <div class="col-xs-12 col-sm-12 col-md-6">
-                            <div class="text-h6">Name:</div>
-                            <div>Bruno Ivan Paz Martinez</div>
+                            <div class="text-h5">Name:</div>
+                            <div >Bruno Ivan Paz Martinez</div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6">
                             <div class="text-h6">Location:</div>
@@ -64,11 +64,12 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 q-mt-md">
                             <div class="text-h6">Github:</div>
-                            <div>https://github.com/Bruno321</div>
+                            <a style="color: #0038FF;" target="_blank" href="https://github.com/Bruno321" class="my-custom-link">https://github.com/Bruno321</a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 q-mt-md">
                             <div class="text-h6">Linkedin:</div>
-                            <div>https://www.linkedin.com/in/bruno-ivan-paz-martinez-451827195/</div>
+                            <a style="color: #0038FF;" target="_blank" href="https://www.linkedin.com/in/bruno-ivan-paz-martinez-451827195/" class="my-custom-link">https://www.linkedin.com/in/bruno-ivan-paz-martinez-451827195</a>
+
                         </div>
                     </div>
                 </div>

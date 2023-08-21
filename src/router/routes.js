@@ -6,6 +6,9 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'bolsa-uaq', component: () => import('pages/BolsaUaq.vue') },
+      { path: 'indereq', component: () => import('pages/Indereq.vue') },
+      { path: 'cosecha-colectiva', component: () => import('pages/CosechaColectiva.vue') },
+      { path: 'agenda', component: () => import('pages/AgendaUaq.vue') },
     ]
   },
 

@@ -8,7 +8,7 @@
 
               <q-card-section class="q-pa-none">
                 <q-img src="bolsa_uaq.jpg" class="cursor-pointer image-container">
-                  <div class="overlay text-h6 flex flex-center" >
+                  <div class="overlay text-h6 flex flex-center" @click="goProject('bolsa-uaq')">
                     See more
                   </div>
                 </q-img>
@@ -42,7 +42,7 @@
           <q-card flat bordered>
               <q-card-section class="q-pa-none">
                 <q-img src="indereq_web.jpg" class="cursor-pointer image-container">
-                  <div class="overlay text-h6 flex flex-center" >
+                  <div class="overlay text-h6 flex flex-center" @click="goProject('indereq')">
                     See more
                   </div>
                 </q-img>
@@ -85,7 +85,7 @@
                     src="cosecha_grupo.jpg"
                     fit="scale-down"
                   />
-                  <div class="overlay text-h6 flex flex-center" >
+                  <div class="overlay text-h6 flex flex-center" @click="goProject('cosecha-colectiva')">
                     See more
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                 <div class="text-h4 text-bold q-mt-sm">Cosecha colectiva</div>
                 <div class="text-subtitle1">Native IOS/Android mobile app</div>
                 <div class="text-subtitle1">API</div>
-                <a style="color: #0038FF;" target="_blank" href="https://indirec-web.vercel.app" class="my-custom-link">https://indirec-web.vercel.app</a>
+                <a style="color: #0038FF;" target="_blank" href="https://drive.google.com/file/d/1HFFxF46D2IWu4BMJ89NLXStsumFrxu9l/view" class="my-custom-link">https://drive.google.com/file/d/cosecha/view</a>
               </q-card-section>
               <q-card-section >
                 <q-separator class="q-mt-sm"></q-separator>
@@ -123,7 +123,7 @@
                     src="agenda_noti.jpg"
                     fit="scale-down"
                   />
-                  <div class="overlay text-h6 flex flex-center" >
+                  <div class="overlay text-h6 flex flex-center" @click="goProject('agenda')">
                     See more
                   </div>
                 </div>
@@ -132,7 +132,7 @@
 
                 <div class="text-h4 text-bold q-mt-sm">Agenda UAQ</div>
                 <div class="text-subtitle1">Native IOS/Android mobile app</div>
-                <a style="color: #0038FF;" target="_blank" href="https://indirec-web.vercel.app" class="my-custom-link">https://indirec-web.vercel.app</a>
+                <a style="color: #0038FF;" target="_blank" href="https://drive.google.com/file/d/1HFFxF46D2IWu4BMJ89NLXStsumFrxu9l/view" class="my-custom-link">https://drive.google.com/file/d/agenda/view</a>
               </q-card-section>
               <q-card-section style="margin-top: 26px;">
                 <q-separator class="q-mt-sm"></q-separator>
@@ -159,6 +159,12 @@
   
   export default defineComponent({
     name: 'PortfolioComp',
+    methods:{
+      goProject(url){
+        console.log(url)
+        this.$router.push(url); 
+      }
+  },
   })
 </script>
   
